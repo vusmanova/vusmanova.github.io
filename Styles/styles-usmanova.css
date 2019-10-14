@@ -9,3 +9,8 @@ p {
     color: mediumpurple;
     font-size: 20px;
 }
+header p {
+    font-weight: bold;
+    color: blue; 
+
+}
