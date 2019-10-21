@@ -23,6 +23,9 @@ header p {
         font-style: italic;
         color: blue; 
      }
+main {
+    background-color: burlywood;
+}
 
 .red-heading {
     color: red;
