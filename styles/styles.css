@@ -68,4 +68,9 @@ main {
      float: left;
     }
               
- }
+section.clear {
+     clear: both;
+}
+
+
+ 
