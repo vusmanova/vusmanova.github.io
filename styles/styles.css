@@ -1,6 +1,9 @@
 body {
     background-color: cornflowerblue;
+    max-width: 500px;
+    margin: auto; 
 }
+
 p{
     font-family: Arial;
 }
@@ -43,6 +46,49 @@ nav li {
     display: inline;
     padding: 8px;    
 }
+
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 22px;
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}
+
+.btn-margin-padding {
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 15px green;
+    border-style: ridge; 
+    }
+
+.btn-margin-padding:active {
+     background-color: red; 
+   
+    }
+
+#button-wrapper {
+    background-color: aquamarine;
+    display: inline-block;
+    border: thin black solid; 
+}
+
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
+      
+
 main {
     background-color: deepskyblue;
 }
@@ -56,7 +102,8 @@ main {
 }
 #new-font {
     font-family: fantasy, cursive, serif;
-}
+
+
  footer {
      background-color: dodgerblue;
      border: black solid thin;
@@ -65,12 +112,15 @@ main {
  }
 
  figure.left {
-     float: left;
+     float:left;
     }
               
 section.clear {
      clear: both;
 }
+
+footer.clear {
+    clear: both;
 
 
  
