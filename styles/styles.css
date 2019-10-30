@@ -1,6 +1,6 @@
 body {
     background-color: cornflowerblue;
-    max-width: 500px;
+    
     margin: auto; 
 }
 
@@ -115,7 +115,7 @@ main {
      float:left;
     }
               
-section.clear {
+section.{
      clear: both;
 }
 
@@ -123,4 +123,4 @@ footer.clear {
     clear: both;
 
 
- 
+    
