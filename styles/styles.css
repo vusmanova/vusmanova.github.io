@@ -1,7 +1,8 @@
 body {
     background-color: cornflowerblue;
-    
+    max-width: 500px;
     margin: auto; 
+
 }
 
 p{
@@ -47,34 +48,11 @@ nav li {
     padding: 8px;    
 }
 
-.btn-padding {
-    padding: 25px;
-    border: 10px green double;    
-    border-radius: 22px;
-}
-
-.btn-padding:hover {
-    background-color: aqua;
-    border-color: white;
-}
-
-.btn-margin-padding {
-    margin: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 15px green;
-    border-style: ridge; 
-    }
-
-.btn-margin-padding:active {
-     background-color: red; 
-   
-    }
-
-#button-wrapper {
-    background-color: aquamarine;
-    display: inline-block;
-    border: thin black solid; 
+ .elf-div-border {
+    border: 1px black solid;
+    text-align: left;
+    font-size: 24px;
+    font-style: bold;
 }
 
 aside {        
@@ -85,7 +63,7 @@ aside {
     font-style: italic;
     margin-right: 5px;
     padding: 8px;
-    width: 33%;        
+    width: 33%;         
 }
       
 
@@ -121,6 +99,5 @@ section.{
 
 footer.clear {
     clear: both;
-
-
+}
     
