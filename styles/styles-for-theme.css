@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+    margin: auto; 
+
+}
+p{
+    font-family: Arial;
+}
+h1 {
+    color: blue;
+    font-size: 25px;
+    }
+    
+header 
+     .byline {
+        font-weight: bold;
+        font-style: italic;
+        color: darkcyan; 
+        font-size: small;
+     }
+
+header p {
+         font-weight: bold;
+        font-style: italic;
+        color: blue; 
+    }
+    
+                      
+ nav {        
+    background-color: aliceblue;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+        
+}
+    
+nav li {
+     display: inline;
+    padding: 8px;    
+}
+
+footer {
+    border: black solid thin;
+    padding-left: 5px;
+    border-radius: 8px; 
+}
