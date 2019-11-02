@@ -1,8 +1,14 @@
 body {
     background-color: lightblue;
+    max-width: 700px;
     margin: auto; 
-
 }
+
+img {
+    width: 640px;
+}
+
+
 p{
     font-family: Arial;
 }
