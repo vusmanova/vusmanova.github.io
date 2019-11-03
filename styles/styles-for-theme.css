@@ -28,6 +28,16 @@ header p {
         font-style: italic;
         color: blue; 
     }
+
+aside {        
+        background-color: bisque;
+        border: black 1px solid;
+        border-radius: 8px;
+        float: right;
+        font-style: italic;
+        margin-right: 5px;
+        padding: 8px;
+        width: 33%; 
     
                       
  nav {        
@@ -35,37 +45,28 @@ header p {
     border: 1px green solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
+    
 }
     
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
         
 }
     
 nav li {
      display: inline;
-    padding: 8px;    
+    padding: 8px;  
+    font-size: 20px;  
 }
 
 footer {
+    background-color: dodgerblue;
     border: black solid thin;
     padding-left: 5px;
     border-radius: 8px; 
-}
-
-}
-
-aside {        
-    background-color: bisque;
-    border: black 1px solid;
-    border-radius: 8px;
-    float: right;
-    font-style: italic;
-    margin-right: 5px;
-    padding: 8px;
-    width: 33%;         
 }
 
  figure.left {
