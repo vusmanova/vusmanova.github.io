@@ -61,14 +61,12 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
-        
 }
     
 nav li {
      display: inline;
     padding: 8px;  
-    font-size: 20px;  
+    font-size: 20px; 
 }
 
 footer {
@@ -76,6 +74,8 @@ footer {
     border: black solid thin;
     padding-left: 5px;
     border-radius: 8px; 
+    font-size: 14px;
+    font-family: cursive;
 }
 
  figure.left {
