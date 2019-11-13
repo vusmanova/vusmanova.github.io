@@ -10,6 +10,10 @@ window.onload = () => {
     simpleFunctionDisplay.textContent = "simple";
 
     }
+
+    newButton.onclick = function() {
+        asdf
+    }
     
 
 
