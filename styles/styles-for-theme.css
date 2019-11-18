@@ -82,11 +82,11 @@ footer {
      float:left;
     }
               
-section.{
-     clear: both;
+section {
+     clear:both;
 }
 
 footer.clear {
-    clear: both;
+    clear:both;
 }
     
