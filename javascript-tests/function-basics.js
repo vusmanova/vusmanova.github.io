@@ -1,41 +1,56 @@
 window.onload = () => {
-    // All code goes in here.
+
     const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
+    const functionParametersDisplay = document.getElementById('functionParametersDisplay');
+    const functionReturnDisplay = document.getElementById('functionReturnDisplay');
     const functionCallsAction = document.getElementById('functionCallsAction');
-            
+
     functionCallsAction.onclick = simpleFunction;
 
     function simpleFunction() {
-    console.log("Functions should consist of statements designed to perform a single task.");
-    simpleFunctionDisplay.textContent = "simple";
+        console.log("Functions should consist of statements designed to perform a single task.");
+        simpleFunctionDisplay.textContent = "Functions should consist of statements designed to perform a single task.";
 
     }
 
-    newButton.onclick = function() {
-        asdf
+    function functionParameters() {
+        console.log("Many functions take parameters.");
+        simpleFunctionParameters.textContent = "Many functions take parameters.";
+
     }
-    
+
+    function functionReturn() {
+        console.log("Many functions return values.");
+        simpleFunctionReturn.textContent = "Many functions return values.";
+
+    }
 
 
-function functionParameters(value) {
-    console.log(value);
-}
+    // newButton.onclick = function() {
+    //   asdf
+    //}
 
-function functionReturn() {
-    return "Many functions return values.";
-}
 
-function add(a, b) {
+
+    function functionParameters(value) {
+        console.log(value);
+    }
+
+    function functionReturn() {
+        return "Many functions return values.";
+    }
+
+    function add(a, b) {
         return a + b;
-}
+    }
 
-//simpleFunction();
+    //simpleFunction();
 
-functionParameters("Many functions take parameters.");
+    functionParameters("Many functions take parameters.");
 
-const returnValue = functionReturn();
-console.log(returnValue);
+    const returnValue = functionReturn();
+    console.log(returnValue);
 
-const result = add(2, 3);
-console.log(result); 
+    const result = add(2, 3);
+    console.log(result);
 }
