@@ -11,9 +11,10 @@ window.onload = () => {
     const numbersDisplay = document.getElementById('numbers-display');
 
     const arrays = {
-        numbers: [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+        numbers: [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5],
+        languages: ["JavaScript", "HTML", "CSS", "Java", "C#", "Python", "C/C++"]
     };
-    
+
     arrays.numbers.sort((a, b) => a - b);
 
     numbersAction.onclick = () => {
