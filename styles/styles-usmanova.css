@@ -14,3 +14,11 @@ header p {
     color: blue; 
 
 }
+
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+} 
