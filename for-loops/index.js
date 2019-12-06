@@ -9,13 +9,14 @@ window.onload = () => {
 
     const listButton = document.getElementById('runForLoopAction');
 
-    listButton.onclick = function () {
+    listButton.onclick = () => {
         const myList = document.getElementById('myList');
-           
-            
-            elfCode.appendToList(myList, 1);
-            elfCode.appendToList(myList, 2);
-            elfCode.appendToList(myList, 3);
-
+        for (var i = 0; i < 5; i++) {
+            elfCode.appendToList(myList, i);
+        }
     }
+
+
+
+
 }
