@@ -31,5 +31,5 @@ window.onload = function () {
 const showChoice = (value) => {
     console.log(value);
     const userChoice = document.getElementById("user-choice");
-    userChoice.textContent= value;
+    userChoice.textContent = value;
 }

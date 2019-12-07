@@ -4,15 +4,6 @@ body {
     margin: auto; 
 
 }
-
-.blueBackground {
-    background-color: aqua;
-}
-
-.greenBackground {
-    background-color: green;
-} 
-
 p{
     font-family: Arial;
 }
@@ -92,7 +83,7 @@ main {
 }
 
  footer {
-     background-color: blue;
+     background-color: dodgerblue;
      border: black solid thin;
      padding-left: 5px;
      border-radius: 8px; 
@@ -109,3 +100,11 @@ section.{
 footer.clear {
     clear: both;
 }
+
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+} 
