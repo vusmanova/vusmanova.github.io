@@ -1,117 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prog109 Usmanova</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel= "shortcut icon" href="new-favicon.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prog109 Usmanova</title>
+  <link href="styles/alternate-styles.css" rel="alternate stylesheet" type="text/css" id="basic">
+  <link href="styles/styles.css" rel="stylesheet" type="text/css" id="default">
+  <link rel="shortcut icon" href="new-favicon.png" type="image/png">
+  <script src="javascript-tests/alternate-styles.js"></script>
+
 </head>
+
 <body>
-    
-   <header>
-      <h1> Prog 109 Usmanova </h1>
-      <p class="byline"> by Usmanova Visolakhon</p> 
-   </header>
 
-<nav>
-  <ul>
+  <header>
+    <h1> Prog 109 Usmanova </h1>
+    <p class="byline"> by Usmanova Visolakhon</p>
+  </header>
+
+  <nav>
+    <ul>
       <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
+    </ul>
+  </nav>
 
 
-   <main>
-      <h2>Assignments</h2>
-     <p> Here are my assignments</p>
-     <nav>
-<ul>
-  <li><a href="assignments/in-class-learn-images.html"> In class learn images</a></li>
-  <li><a href="assignments/in-class-part-01.html"> In class part 1</a> </li>
-  <li><a href="assignments/resume.html">Resume</a></li>
-  <li><a href="assignments/week04-day01.html">Week 04 Day01</a></li>
-  <li><a href="assignments/list-buttons.html">List-Buttons</a></li>
-  <li><a href="theme/index.html">Theme</a></li>
-  <li><a href="javascript-tests/branching.html">Branching</a></li>
-  <li><a href="javascript-tests/looping-over-complex-types.html"> Looping Over Complex Types</a></li>
-  <li><a href="for-loops/index.html">For Loops</a></li>
-  <li><a href="javascript-tests/function-basics.html">Function Basics</a></li>
-  <li><a href="javascript-tests/function-input.html">Function Input</a></li>
-  <li><a href="javascript-tests/object-choices.html">Object Choices</a></li>
-  <li><a href="javascript-tests/javascript-arrays.html">JavaScript Arrays</a></li>
-  <li><a href="javascript-tests/radio-choices.html">Radio Choices</a></li>
-  <li><a href="#block01"> Block One</a></li>
-  <li><a href="#block02"> Block Two</a></li>
-  <li><a href="#block03"> Block Three</a></li>
+  <main>
+    <section id="Appearance">
+      <fieldset>
+        <legend>Appearance</legend>
+        <!-- OUR FORM GOES HERE -->
+        <form id="appearanceAction" action="goThere">
 
-</ul>
-</nav>
+          <input type="radio" id="default" name="sorter" value="Default Stylesheet" checked>
+          <label for="blue">Default StyleSheet</label>
 
-<section id ="block01">
-  <h2>Block One </h2>
-    <figure class="left">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/About_icon_%28The_Noun_Project%29.svg">
-     <figcaption> Image: Information</figcaption>
-    </figure>
-     
-     <p> The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (&lt;figcaption&gt;) element. The figure, its caption, and its contents are referenced as a single unit.
-       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</section>    
+          <input type="radio" id="basic" name="sorter" value="Basic Stylesheet">
+          <label for="basic">Basic StyleSheet</label>
 
-<section id ="block02">
-    <h2>Block Two </h2>
+          <button id="appearanceButton">Appearance Button</button>
+        </form>
+      </fieldset>
+    </section>
+
+    <h2>Assignments</h2>
+    <p> Here are my assignments</p>
+    <nav>
+      <ul>
+        <li><a href="assignments/in-class-learn-images.html"> In class learn images</a></li>
+        <li><a href="assignments/in-class-part-01.html"> In class part 1</a> </li>
+        <li><a href="assignments/resume.html">Resume</a></li>
+        <li><a href="assignments/week04-day01.html">Week 04 Day01</a></li>
+        <li><a href="assignments/list-buttons.html">List-Buttons</a></li>
+        <li><a href="theme/index.html">Theme</a></li>
+        <li><a href="javascript-tests/branching.html">Branching</a></li>
+        <li><a href="javascript-tests/looping-over-complex-types.html"> Looping Over Complex Types</a></li>
+        <li><a href="for-loops/index.html">For Loops</a></li>
+        <li><a href="javascript-tests/function-basics.html">Function Basics</a></li>
+        <li><a href="javascript-tests/function-input.html">Function Input</a></li>
+        <li><a href="javascript-tests/object-choices.html">Object Choices</a></li>
+        <li><a href="javascript-tests/javascript-arrays.html">JavaScript Arrays</a></li>
+        <li><a href="javascript-tests/radio-choices.html">Radio Choices</a></li>
+        <li><a href="#block01"> Block One</a></li>
+        <li><a href="#block02"> Block Two</a></li>
+        <li><a href="#block03"> Block Three</a></li>
+
+      </ul>
+    </nav>
+
+    <section id="block01">
+      <h2>Block One </h2>
       <figure class="left">
-       <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/About_icon_%28The_Noun_Project%29.svg">
-       <figcaption> Image: Information</figcaption>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/About_icon_%28The_Noun_Project%29.svg">
+        <figcaption> Image: Information</figcaption>
       </figure>
-       
-       <p> The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (&lt;figcaption&gt;) element. The figure, its caption, and its contents are referenced as a single unit.
-         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </section>  
 
-  <section id ="block03">
-      <h2>Block Three </h2>
-        <figure class="left">
-         <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/About_icon_%28The_Noun_Project%29.svg">
-         <figcaption> Image: Information</figcaption>
-        </figure>
-         
-         <p> The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (&lt;figcaption&gt;) element. The figure, its caption, and its contents are referenced as a single unit.
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </section>  
-    
-    <section id = "small-block"> 
-      <h2> Small Block</h2>
+      <p> The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially
+        with an optional caption, which is specified using the (&lt;figcaption&gt;) element. The figure, its caption,
+        and its contents are referenced as a single unit.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
     </section>
-      
+
+    <section id="block02">
+      <h2>Block Two </h2>
       <figure class="left">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/About_icon_%28The_Noun_Project%29.svg">
-          <figcaption> Image: Information</figcaption>
-         </figure>
-         
-         <p> A small amount of text. </p>
-      
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/About_icon_%28The_Noun_Project%29.svg">
+        <figcaption> Image: Information</figcaption>
+      </figure>
 
-
-    <section class="clear">
-      <p> More Text</p>
-
-    
-
-      <p class="clear">Foo. This is a new paragraph</p>
-
+      <p> The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially
+        with an optional caption, which is specified using the (&lt;figcaption&gt;) element. The figure, its caption,
+        and its contents are referenced as a single unit.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
     </section>
 
-    </main>
+    <section id="block03">
+      <h2>Block Three </h2>
+      <figure class="left">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/About_icon_%28The_Noun_Project%29.svg">
+        <figcaption> Image: Information</figcaption>
+      </figure>
 
-    <footer>
-       <p>Copyright &copy; 2019 by Usmanova Visolakhon</p>
-       <ul>
-         <li><a href="about.html">About</a></li>
-     </ul>
-    </footer>
+      <p> The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially
+        with an optional caption, which is specified using the (&lt;figcaption&gt;) element. The figure, its caption,
+        and its contents are referenced as a single unit.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+    </section>
+
+
+
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2019 by Usmanova Visolakhon</p>
+    <ul>
+      <li><a href="about.html">About</a></li>
+    </ul>
+
+  </footer>
 
 </body>
-</html>
 
+</html>

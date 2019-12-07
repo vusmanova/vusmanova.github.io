@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Uzbekistan</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link href="../styles/alternate-styles.css" rel="alternate stylesheet" type="text/css" id="basic">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" id="default">
     <link rel="shortcut icon" href="../new-favicon.png" type="image/png">
+    <script src="../javascript-tests/alternate-styles.js"></script>
 
 </head>
 
@@ -30,6 +32,24 @@
     </nav>
 
     <main>
+        <section id="Appearance">
+            <fieldset>
+                <legend>Appearance</legend>
+                <!-- OUR FORM GOES HERE -->
+                <form id="appearanceAction" action="goThere">
+
+                    <input type="radio" id="default" name="sorter" value="Default Stylesheet" checked>
+                    <label for="blue">Default StyleSheet</label>
+
+                    <input type="radio" id="basic" name="sorter" value="Basic Stylesheet">
+                    <label for="basic">Basic StyleSheet</label>
+
+                    <button id="appearanceButton">Appearance Button</button>
+                </form>
+            </fieldset>
+        </section>
+
+
         <img src="../images/borders-2099235_960_720.png" alt="Map of Uzbekistan">
 
         <p>Uzbekistan is a hospitable warm land where the sun shines brightly 300 days a year. Nature generously

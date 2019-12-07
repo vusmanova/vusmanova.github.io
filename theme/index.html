@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Uzbekistan</title>
-    <link rel="stylesheet" href="../styles/styles-for-theme.css">
+    <link href="../styles/alternate-styles.css" rel="alternate stylesheet" type="text/css" id="basic">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" id="default">
     <link rel="shortcut icon" href="../new-favicon.png" type="image/png">
+    <script src="../javascript-tests/alternate-styles.js"></script>
 </head>
 
 <body>
@@ -28,6 +30,25 @@
     </nav>
 
     <main>
+        <section id="Appearance">
+            <fieldset>
+                <legend>Appearance</legend>
+                <!-- OUR FORM GOES HERE -->
+                <form id="appearanceAction" action="goThere">
+
+                    <input type="radio" id="default" name="sorter" value="Default Stylesheet" checked>
+                    <label for="blue">Default StyleSheet</label>
+
+                    <input type="radio" id="basic" name="sorter" value="Basic Stylesheet">
+                    <label for="basic">Basic StyleSheet</label>
+
+                    <button id="appearanceButton">Appearance Button</button>
+                </form>
+            </fieldset>
+        </section>
+
+
+
         <p> Have you decided where to spend your vacation or your free time? Want to feel the surge of positive
             emotions and vivid impressions.
             Would you like to touch the mysteries of the East, enjoy its exquisite beauty?
@@ -54,11 +75,11 @@
     </main>
 
     <footer>
-            <p>Copyright &copy; 2019 by Usmanova Visolakhon</p>
-             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about-me.html">About</a></li>
-            </ul>
+        <p>Copyright &copy; 2019 by Usmanova Visolakhon</p>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about-me.html">About</a></li>
+        </ul>
     </footer>
 
 </body>
